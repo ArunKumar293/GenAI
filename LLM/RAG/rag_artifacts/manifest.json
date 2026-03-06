@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-03-06T02:01:49",
+  "settings": {
+    "OLLAMA_URL": "http://localhost:11434",
+    "CHAT_MODEL": "llama3.1:8b",
+    "EMBED_MODEL": "embeddinggemma:latest",
+    "WORDS_PER_CHUNK": 300,
+    "OVERLAP_WORDS": 60,
+    "CHROMA_COLLECTION": "rag_demo",
+    "CHROMA_DISTANCE": "cosine"
+  },
+  "chunk_count": 3234,
+  "embedding_dim": 768,
+  "corpus_fingerprint": "cb1cc84ca4dc5e16688d219d608fc2056cd5f3dd01126807792590a5f8ee469b",
+  "docs": [
+    {
+      "title": "Moby-Dick",
+      "url": "https://www.gutenberg.org/files/2701/2701-0.txt",
+      "path": "corpus_jupyter\\Moby-Dick.txt",
+      "words": 212796,
+      "fingerprint": "Moby-Dick.txt|1234504|1772572107"
+    },
+    {
+      "title": "War and Peace",
+      "url": "https://www.gutenberg.org/files/2600/2600-0.txt",
+      "path": "corpus_jupyter\\War_and_Peace.txt",
+      "words": 563286,
+      "fingerprint": "War_and_Peace.txt|3339772|1772572107"
+    }
+  ]
+}
